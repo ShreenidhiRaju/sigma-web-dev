@@ -1,5 +1,19 @@
 function createCard(title, cName, views, monthsOld, duration, thumbnail){
-    // Finish this function
+    let v
+    document.querySelector(".title").innerHTML=`<b>${title}</b>`
+    document.querySelector(".channelname").innerHTML=`<b>${cName}</b>`
+    document.querySelector(".uploadtime").innerHTML=`<b>. ${monthsOld} months ago</b>`
+    if(views<1000){
+        v=views
+    }
+    else if(views>1000000){
+        v=views/1000000+"M"
+    }
+    else{
+        v=views/1000+"K"
+    }
+
+    document.querySelector(".views").innerHTML=` <b>. ${v} views</b>`
 }
 
 
