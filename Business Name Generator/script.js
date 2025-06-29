@@ -65,3 +65,4 @@ var ch=prompt("Do you want to continue? [y/n]")
 let arr=[10,20,30,40]
 console.log(arr.join('#'))
 console.log(arr)
+
