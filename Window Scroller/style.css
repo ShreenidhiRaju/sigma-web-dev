@@ -1,0 +1,9 @@
+.box{
+    background-color: aqua;
+    height:2000px;
+}
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    left: 1000px;
+}
