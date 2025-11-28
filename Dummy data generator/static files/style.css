@@ -1,0 +1,8 @@
+*{
+    background-color: black;
+    color: wheat;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
